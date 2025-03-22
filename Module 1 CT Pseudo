@@ -1,0 +1,48 @@
+//add elements
+//remove elements
+//check for element
+//count occurences of element
+
+//generic bag class:
+START
+  CREATE array of length = 5
+
+//to add element:
+  READ user input
+  ADD user input to array
+  RETURN confirmation of addition to array
+
+//to remove element:
+  READ user input
+   IF user input = element in array THEN
+    REMOVE element
+   ELSE
+    RETURN "Element not found"
+   END IF
+  RETURN confirmation of removed element
+
+//to check for element:
+  READ user input
+    FOR i from 0 TO index -1
+      IF element(s) exists THEN
+        RETURN element index
+      ELSE
+        RETURN "Element not found"
+      END IF
+    END FOR
+
+//to count occurences of element:
+  READ user input
+    FOR i from 0 TO index -1
+      IF element(s) exists THEN
+        COUNT element ocuurences
+        RETURN count
+      ELSE
+        RETURN "Element not found"
+      END IF
+    END FOR
+END
+
+
+
+
