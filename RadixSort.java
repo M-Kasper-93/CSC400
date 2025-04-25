@@ -9,4 +9,6 @@ private static Integer[] msd(Integer[] items, int index) {
     if (array.length <= 1) {
         return items;
     }
+    //underlying sorting method
+    Arrays.sort(items, index);
 }
