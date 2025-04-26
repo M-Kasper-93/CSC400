@@ -1,3 +1,13 @@
+/*Module 5 Critical Thinking
+Megan Kasper, 26 April 2025
+Purpose of RadixSort class: recursively sort integers based on the most significatn digit */
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class RadixSort {
+
 //establish array for integers
 public static Integer[] msd(Integer[] items) {
     return msd(items, 0);
@@ -52,4 +62,5 @@ public static void main(String[] args) {
     Integer[] sortedItems = msd(items);
 
     System.out.println(Arrays.toString(sortedItems));
+}
 }
